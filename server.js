@@ -1,5 +1,5 @@
 
-/* ------------------------ Npm packages and other files  declaration ------------------------ */
+/* ------------------------ Npm packages and others files  declaration ------------------------ */
 
 const express         = require('express')
 const app             = express('localhost');
