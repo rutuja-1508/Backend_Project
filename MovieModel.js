@@ -1,19 +1,26 @@
 
-var   mongoose = require("mongoose");
+var  winston = require("winston");
+var mongoose=require('mongoose');
 
-
-const movieSchema = new mongoose.Schema(
+const  movieSchema = new mongoose.Schema(
   {
 
-    name:{
-      type: String,
+    name: { 
+      type: String, 
+      
     },
     img:{
       type: String,
+    
+    
     },
     summary:{
-      type: String,
+      type: String, 
+    
     },
+    id:{
+      type :Number,
+    }
   
   },
   { timestamps: true }
